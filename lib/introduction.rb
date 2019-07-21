@@ -8,7 +8,7 @@ end
 
 def introduction_with_language_optional (name,language)
  if language.validates_length_of == 0
-  puts 
+  puts "Hi, my name is #{name} and I am learning to program in Ruby."
 else
-  puts "Enjoy the fine day!"
+  puts 
 end
