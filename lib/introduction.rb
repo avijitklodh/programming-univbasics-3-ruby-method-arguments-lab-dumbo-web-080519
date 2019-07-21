@@ -7,8 +7,8 @@ def introduction_with_language(name,language)
 end
 
 def introduction_with_language_optional (name,language)
- if language.length == 0
-   "Hi, my name is #{name} and I am learning to program in #{language}."
+ if language != ""
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
  else
-   "Hi, my name is #{name} and I am learning to program in Ruby."
+  puts "Hi, my name is #{name} and I am learning to program in Ruby."
 end
